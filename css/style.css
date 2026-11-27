@@ -1,0 +1,168 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.contaner{
+    width: 80%;
+    margin: auto;
+}
+.nav-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 150px;
+    padding-top: 30px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding-inline: 10px;
+}
+li{
+   padding-inline: 10px;  
+}
+a {
+  text-decoration: none;
+   color: white;
+}
+.nav-background{
+    background-image: url("../Imgs/image-hero.jpg");  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+ padding-bottom: 110px;
+ margin-bottom: 100px;
+}
+.nav-text{
+   
+    width: 40%;
+    padding: 40px 20px;
+    border: 3px white solid;
+   font-size: 30px;
+word-spacing: 3px;
+
+}
+.image{
+    width: 55%;
+    margin-bottom: 60px;
+}
+img{
+    width: 100%;
+}
+.img-sec{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.img-text{
+    width: 35%;
+    background-color:white;
+    padding: 20px;
+}
+.img-text h2{
+       font-size: 35px;
+word-spacing: 3px;
+text-align: center;
+line-height: 40px;
+
+}
+.img-text p{
+       font-size: 16px;
+text-align: center;
+color: grey;
+padding: 15px;
+}
+.img-text{
+    position: absolute;
+    left: 40%;
+    bottom: -10%;
+}
+.creations{
+    margin-bottom: 100px;
+}
+.creations-heading{
+    margin-bottom: 80px;
+}
+.creations-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.creations-text{
+    font-size: 27px;
+}
+.creations-btn button{
+    padding: 7px 30px ;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid black;
+}
+.image-creations{
+    width: 20%;
+    position: relative;
+}
+.creations-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+.image-creations h2{
+    position: absolute;
+    width: 50%;
+    bottom: 8%;
+    left: 10%;
+    color: white;
+}
+.img-3 h2{
+    position: absolute;
+    width: 60%;
+    bottom: 7%;
+    left: 10%;
+    color: white;
+}
+.img-4 h2{
+    position: absolute;
+    width: 30%;
+    bottom: 7%;
+    left: 10%;
+    color: white;
+}
+.img-5 h2{
+    position: absolute;
+    width: 60%;
+    bottom: 7%;
+    left: 10%;
+    color: white;
+}
+.img-8 h2{
+    position: absolute;
+    width: 90%;
+    bottom: 7%;
+    left: 10%;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white; 
+    padding-block:10px ;
+}
+.footer-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px; 
+    padding-block: 15px;
+}
+span{
+    padding-inline:5px;
+    font-size: 25px;
+}
+.footer-sec-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 30px;
+}
